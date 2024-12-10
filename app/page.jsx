@@ -15,7 +15,7 @@ export default function Page() {
               to craft sushi, sashimi, and Japanese dishes that delight the
               senses.
             </p>
-            <a className="landing-cta" href="./menu.html">
+            <a className="landing-cta" href="./menu">
               View Full Menu
             </a>
           </div>
