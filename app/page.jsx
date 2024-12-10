@@ -1,35 +1,38 @@
 import Image from "next/image";
+import ReviewCards from "./components/reviewCards";
 
 export default function Page() {
   return (
-    <><section className="section-landing">
-      <div className="landing">
-        <div className="landing-content">
-          <h1 className="landing-heading">Finding Nemo</h1>
-          <p className="landing-text">
-            At Finding Nemo, we blend the rich traditions of Japanese cuisine
-            with a modern twist. Our chefs use only the freshest ingredients to
-            craft sushi, sashimi, and Japanese dishes that delight the senses.
-          </p>
-          <a className="landing-cta" href="./menu.html">
-            View Full Menu
-          </a>
-        </div>
+    <>
+      <section className="section-landing">
+        <div className="landing">
+          <div className="landing-content">
+            <h1 className="landing-heading">Finding Nemo</h1>
+            <p className="landing-text">
+              At Finding Nemo, we blend the rich traditions of Japanese cuisine
+              with a modern twist. Our chefs use only the freshest ingredients
+              to craft sushi, sashimi, and Japanese dishes that delight the
+              senses.
+            </p>
+            <a className="landing-cta" href="./menu.html">
+              View Full Menu
+            </a>
+          </div>
 
-        <div className="center-box">
-          <Image
-            // src={fish}
-             src="/images/landing-page-sushi.png"
-            alt="Illustration of a sushi"
-            width={317}        
-            height={363}  
-            className="landing-image" />
+          <div className="center-box">
+            <Image
+              src="/images/landing-page-sushi.png"
+              alt="Illustration of a sushi"
+              width={317}
+              height={363}
+              className="landing-image"
+            />
+          </div>
         </div>
-      </div>
-    </section><section className="section-why">
+      </section>
+      <section className="section-why">
         <div className="max-width">
           <h2 className="section-why-title">Why Choose Us?</h2>
-
 
           <div className="container-flex-card">
             <div className="card-why">
@@ -52,12 +55,13 @@ export default function Page() {
           </div>
         </div>
       </section>
-      
+
       <section className="section-review">
         <div className="max-width">
           <h2>Whats the word on the street?</h2>
+          <ReviewCards />
 
-          <div className="review-card">
+          {/* <div className="review-card">
             <div className="review-text">
               <h4>John Doe 5/5</h4>
               <p>
@@ -94,9 +98,9 @@ export default function Page() {
               src="./assets/img/rev-3.jpg"
               alt="serving board containing numerous sushi of different kind."
             />
-          </div>
+          </div> */}
         </div>
       </section>
-      </>
+    </>
   );
 }

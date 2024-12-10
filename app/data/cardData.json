@@ -1,0 +1,28 @@
+{
+  "review": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "rating": "5/5",
+      "comment": "I liked it all very much. I will come here again with my family. Recommended!",
+      "image": "/images/rev-1.jpg",
+      "altText": "back rectangle plate that contains different type of sushi, presented on a table"
+    },
+    {
+      "id": 2,
+      "name": "MJ Diamond",
+      "rating": "5/5",
+      "comment": "Absolutely the best sushi experience I've had! Fresh ingredients and beautiful presentation. Highly recommend!",
+      "image": "/images/rev-2.jpg",
+      "altText": "sushi between chopstick"
+    },
+    {
+      "id": 3,
+      "name": "Carlo V.",
+      "rating": "5/5",
+      "comment": "Every dish was a work of art. The freshness and quality of the sushi is unbeatable!",
+      "image": "/images/rev-3.jpg",
+      "altText": "serving board containing numerous sushi of different kind."
+    }
+  ]
+}
