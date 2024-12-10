@@ -24,5 +24,25 @@
       "image": "/images/rev-3.jpg",
       "altText": "serving board containing numerous sushi of different kind."
     }
+  ],
+  "whyChooseUs": [
+    {
+      "id": 1,
+      "icon": "fa-tag",
+      "title": "Best Offer",
+      "description": "We give the best offer for our valuable customers."
+    },
+    {
+      "id": 2,
+      "icon": "fa-bowl-food",
+      "title": "Fresh Food",
+      "description": "We serve only fresh quality food."
+    },
+    {
+      "id": 3,
+      "icon": "fa-truck",
+      "title": "Food Delivery",
+      "description": "We offer free delivery right at your door steps."
+    }
   ]
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ReviewCards from "./components/reviewCards";
+import WhyChooseUs from "./components/WhyChooseUs";
 
 export default function Page() {
   return (
@@ -35,23 +36,7 @@ export default function Page() {
           <h2 className="section-why-title">Why Choose Us?</h2>
 
           <div className="container-flex-card">
-            <div className="card-why">
-              <i className="fa-solid fa-tag"></i>
-              <h3>Best Offer</h3>
-              <p>We give the best offer for our valuable customers.</p>
-            </div>
-
-            <div className="card-why">
-              <i className="fa-solid fa-bowl-food"></i>
-              <h3>Fresh Food</h3>
-              <p>We serve only fresh quality food.</p>
-            </div>
-
-            <div className="card-why">
-              <i className="fa-solid fa-truck"></i>
-              <h3>Food Delivery</h3>
-              <p>We offer free delivery right at your door steps.</p>
-            </div>
+            <WhyChooseUs />
           </div>
         </div>
       </section>
@@ -60,45 +45,6 @@ export default function Page() {
         <div className="max-width">
           <h2>Whats the word on the street?</h2>
           <ReviewCards />
-
-          {/* <div className="review-card">
-            <div className="review-text">
-              <h4>John Doe 5/5</h4>
-              <p>
-                I liked it all very much. I will come here again with my family.
-                Recommended!
-              </p>
-            </div>
-            <img
-              src="./assets/img/jakub-dziubak-iOHJKJqO6E0-unsplash.jpg"
-              alt="back rectangle plate that contains different type of sushi, presented on a table"
-            />
-          </div>
-
-          <div className="review-card">
-            <img src="./assets/img/rev-2.jpg" alt="sushi between chopstick" />
-            <div className="review-text">
-              <h4>MJ Diamond 5/5</h4>
-              <p>
-                Absolutely the best sushi experience I've had! Fresh ingredients
-                and beautiful presentation. Highly recommend!"
-              </p>
-            </div>
-          </div>
-
-          <div className="review-card">
-            <div className="review-text">
-              <h4>Carlo V. 5/5</h4>
-              <p>
-                Every dish was a work of art. The freshness and quality of the
-                sushi is unbeatable!
-              </p>
-            </div>
-            <img
-              src="./assets/img/rev-3.jpg"
-              alt="serving board containing numerous sushi of different kind."
-            />
-          </div> */}
         </div>
       </section>
     </>
