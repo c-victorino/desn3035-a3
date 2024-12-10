@@ -18,8 +18,8 @@ export default function Header() {
       <nav className="navigation">
         <ul className="nav-link-list">
           <li><Link href="/" className="nav-link active-link">Home</Link></li>
-          <li><Link href="/team" className="nav-link">Team</Link></li>
-          <li><Link href="/menu" className="nav-link">Menu</Link></li>
+          <li><Link href="./team" className="nav-link">Team</Link></li>
+          <li><Link href="./menu" className="nav-link">Menu</Link></li>
         </ul>
       </nav>
     </header>

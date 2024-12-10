@@ -189,7 +189,10 @@
   }
   
   .landing-image {
-    width: 65%;
+    /* width: 309px;
+    height: 352px; */
+    /* aspect-ratio: 16 / 9; */
+
   }
   
   /* why choose */

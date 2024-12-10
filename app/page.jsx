@@ -1,46 +1,51 @@
+import Image from "next/image";
+
 export default function Page() {
   return (
-    <><section class="section-landing">
-      <div class="landing">
-        <div class="landing-content">
-          <h1 class="landing-heading">Finding Nemo</h1>
-          <p class="landing-text">
+    <><section className="section-landing">
+      <div className="landing">
+        <div className="landing-content">
+          <h1 className="landing-heading">Finding Nemo</h1>
+          <p className="landing-text">
             At Finding Nemo, we blend the rich traditions of Japanese cuisine
             with a modern twist. Our chefs use only the freshest ingredients to
             craft sushi, sashimi, and Japanese dishes that delight the senses.
           </p>
-          <a class="landing-cta" href="./menu.html">
+          <a className="landing-cta" href="./menu.html">
             View Full Menu
           </a>
         </div>
 
-        <div class="center-box">
-          <img
-            src="./assets/img/landing-page-sushi.png"
+        <div className="center-box">
+          <Image
+            // src={fish}
+             src="/images/landing-page-sushi.png"
             alt="Illustration of a sushi"
-            class="landing-image" />
+            width={317}        
+            height={363}  
+            className="landing-image" />
         </div>
       </div>
-    </section><section class="section-why">
-        <div class="max-width">
-          <h2 class="section-why-title">Why Choose Us?</h2>
+    </section><section className="section-why">
+        <div className="max-width">
+          <h2 className="section-why-title">Why Choose Us?</h2>
 
 
-          <div class="container-flex-card">
-            <div class="card-why">
-              <i class="fa-solid fa-tag"></i>
+          <div className="container-flex-card">
+            <div className="card-why">
+              <i className="fa-solid fa-tag"></i>
               <h3>Best Offer</h3>
               <p>We give the best offer for our valuable customers.</p>
             </div>
 
-            <div class="card-why">
-              <i class="fa-solid fa-bowl-food"></i>
+            <div className="card-why">
+              <i className="fa-solid fa-bowl-food"></i>
               <h3>Fresh Food</h3>
               <p>We serve only fresh quality food.</p>
             </div>
 
-            <div class="card-why">
-              <i class="fa-solid fa-truck"></i>
+            <div className="card-why">
+              <i className="fa-solid fa-truck"></i>
               <h3>Food Delivery</h3>
               <p>We offer free delivery right at your door steps.</p>
             </div>
@@ -48,12 +53,12 @@ export default function Page() {
         </div>
       </section>
       
-      <section class="section-review">
-        <div class="max-width">
+      <section className="section-review">
+        <div className="max-width">
           <h2>Whats the word on the street?</h2>
 
-          <div class="review-card">
-            <div class="review-text">
+          <div className="review-card">
+            <div className="review-text">
               <h4>John Doe 5/5</h4>
               <p>
                 I liked it all very much. I will come here again with my family.
@@ -66,9 +71,9 @@ export default function Page() {
             />
           </div>
 
-          <div class="review-card">
+          <div className="review-card">
             <img src="./assets/img/rev-2.jpg" alt="sushi between chopstick" />
-            <div class="review-text">
+            <div className="review-text">
               <h4>MJ Diamond 5/5</h4>
               <p>
                 Absolutely the best sushi experience I've had! Fresh ingredients
@@ -77,8 +82,8 @@ export default function Page() {
             </div>
           </div>
 
-          <div class="review-card">
-            <div class="review-text">
+          <div className="review-card">
+            <div className="review-text">
               <h4>Carlo V. 5/5</h4>
               <p>
                 Every dish was a work of art. The freshness and quality of the
