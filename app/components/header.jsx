@@ -1,6 +1,11 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const pathname = usePathname();
+
   return (
     <header className="header">
       <Link href="/">
@@ -16,17 +21,30 @@ export default function Header() {
       <nav className="navigation">
         <ul className="nav-link-list">
           <li>
-            <Link href="/" className="nav-link active-link">
+            <Link
+              href="/"
+              className={`nav-link ${pathname === "/" ? "active-link" : ""}`}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link href="./team" className="nav-link">
+            <Link
+              href="/team"
+              className={`nav-link ${
+                pathname === "/team" ? "active-link" : ""
+              }`}
+            >
               Team
             </Link>
           </li>
           <li>
-            <Link href="./menu" className="nav-link">
+            <Link
+              href="/menu"
+              className={`nav-link ${
+                pathname === "/menu" ? "active-link" : ""
+              }`}
+            >
               Menu
             </Link>
           </li>
