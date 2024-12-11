@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../styles/queries.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
 
