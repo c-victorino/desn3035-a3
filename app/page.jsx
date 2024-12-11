@@ -21,12 +21,10 @@ export default function Page() {
           </div>
 
           <div className="center-box">
-            <Image
+            <img
               src="/images/landing-page-sushi.png"
-              alt="Illustration of a sushi"
-              width={317}
-              height={363}
               className="landing-image"
+              alt="Illustration of a sushi"
             />
           </div>
         </div>
