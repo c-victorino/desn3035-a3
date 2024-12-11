@@ -18,7 +18,7 @@ export default function Tooter() {
             Japan and the innovation of modern culinary trends.
           </p>
           <img
-            src="/images/gordon.jpg"
+            src="./images/gordon.jpg"
             alt="Picture of Gordon Ramsey with a red background"
           />
         </div>

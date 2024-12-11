@@ -5,7 +5,7 @@
       "name": "John Doe",
       "rating": "5/5",
       "comment": "I liked it all very much. I will come here again with my family. Recommended!",
-      "image": "/images/rev-1.jpg",
+      "image": "./images/rev-1.jpg",
       "altText": "back rectangle plate that contains different type of sushi, presented on a table"
     },
     {
@@ -13,7 +13,7 @@
       "name": "MJ Diamond",
       "rating": "5/5",
       "comment": "Absolutely the best sushi experience I've had! Fresh ingredients and beautiful presentation. Highly recommend!",
-      "image": "/images/rev-2.jpg",
+      "image": "./images/rev-2.jpg",
       "altText": "sushi between chopstick"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Carlo V.",
       "rating": "5/5",
       "comment": "Every dish was a work of art. The freshness and quality of the sushi is unbeatable!",
-      "image": "/images/rev-3.jpg",
+      "image": "./images/rev-3.jpg",
       "altText": "serving board containing numerous sushi of different kind."
     }
   ],
@@ -49,63 +49,63 @@
     {
       "id": 1,
       "name": "Salmon Sushi",
-      "image": "/images/menu-1.jpg",
+      "image": "./images/menu-1.jpg",
       "altText": "a plate of sushi on a black plate",
       "price": "$7.99"
     },
     {
       "id": 2,
       "name": "Spicy Tuna",
-      "image": "/images/menu-2.jpg",
+      "image": "./images/menu-2.jpg",
       "altText": "a plate of sushi with chopstick in the image",
       "price": "$5.99"
     },
     {
       "id": 3,
       "name": "Wild Card",
-      "image": "/images/menu-3.jpg",
+      "image": "./images/menu-3.jpg",
       "altText": "a serving of fresh japanese sushi / sashimi",
       "price": "$9.99"
     },
     {
       "id": 4,
       "name": "Nigiri",
-      "image": "/images/menu-4.jpg",
+      "image": "./images/menu-4.jpg",
       "altText": "salmon and rice",
       "price": "$4.99"
     },
     {
       "id": 5,
       "name": "Rice Ball",
-      "image": "/images/menu-5.jpg",
+      "image": "./images/menu-5.jpg",
       "altText": "japanese rice ball",
       "price": "$6.99"
     },
     {
       "id": 6,
       "name": "Special Bowl",
-      "image": "/images/menu-6.jpg",
+      "image": "./images/menu-6.jpg",
       "altText": "serving of sushi on a bowl, with a hand applying final touch to the plate to serve",
       "price": "$11.99"
     },
     {
       "id": 7,
       "name": "Smoked Roll",
-      "image": "/images/menu-7.jpg",
+      "image": "./images/menu-7.jpg",
       "altText": "a roll of sushi with smoked fish",
       "price": "$8.99"
     },
     {
       "id": 8,
       "name": "Lunch Specials",
-      "image": "/images/menu-8.jpg",
+      "image": "./images/menu-8.jpg",
       "altText": "lunch special meal with various sushi and sides",
       "price": "$10.99"
     },
     {
       "id": 9,
       "name": "Bowl of the Day",
-      "image": "/images/menu-9.jpg",
+      "image": "./images/menu-9.jpg",
       "altText": "a bowl filled with various fresh ingredients and sushi",
       "price": "$7.49"
     }

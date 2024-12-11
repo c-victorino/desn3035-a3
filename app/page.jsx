@@ -22,7 +22,7 @@ export default function Page() {
 
           <div className="center-box">
             <img
-              src="/images/landing-page-sushi.png"
+              src="./images/landing-page-sushi.png"
               className="landing-image"
               alt="Illustration of a sushi"
             />
