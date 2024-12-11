@@ -12,10 +12,10 @@ export default function Tooter() {
             With over 20 years of experience in traditional Japanese cuisine,
             Chef Gold brings an unparalleled passion for sushi artistry. Trained
             in Tokyo, he mastered the delicate balance of flavors and techniques
-            that make each dish a masterpiece. At
-            <strong>Finding Nemo</strong>, Chef Gold is dedicated to creating an
-            authentic dining experience that reflects both the rich heritage of
-            Japan and the innovation of modern culinary trends.
+            that make each dish a masterpiece. At <strong>Finding Nemo</strong>,
+            Chef Gold is dedicated to creating an authentic dining experience
+            that reflects both the rich heritage of Japan and the innovation of
+            modern culinary trends.
           </p>
           <img
             src="./images/gordon.jpg"

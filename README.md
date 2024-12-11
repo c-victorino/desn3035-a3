@@ -21,7 +21,7 @@ Make sure you have the following installed:
 
 ```sh
 git clone https://github.com/c-victorino/desn3035-a3.git
-cd your-repo-name
+cd  repo-name
 ```
 
 2. Install Dependencies
