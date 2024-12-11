@@ -72,8 +72,8 @@ header {
   left: 0;
   width: 100%;
   z-index: 100;
-  backdrop-filter: blur(4px);
-  /* background-color: #e66a62; */
+  backdrop-filter: blur(2px);
+  background-color: #fbf0dfe8;
 }
 
 .header-logo {
@@ -126,7 +126,7 @@ footer a {
   align-items: center;
   gap: 2rem;
 }
-/*** main page (index.html) ***/
+/*** main page ***/
 /* landing */
 .section-landing {
   background-color: var(--bg-main);
@@ -135,7 +135,6 @@ footer a {
 
 .landing {
   max-width: 130rem;
-  /* height: 100vh; */
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -185,7 +184,7 @@ footer a {
   /* aspect-ratio: 16 / 9; */
 }
 
-/* why choose */
+/*** why choose ***/
 .section-why {
   background-color: var(--color-dark);
   color: var(--color-light);
@@ -264,7 +263,7 @@ footer a {
   width: 19rem;
 }
 
-/*** team-page (team.html)***/
+/*** team-page ***/
 .section-team {
   padding: 4rem 2rem;
 }
@@ -303,7 +302,7 @@ iframe {
   text-align: center;
 }
 
-/*** menu page (menu.html)***/
+/*** menu page ***/
 .section-menu {
   padding: 8rem 0;
   background-color: var(--bg-main);
@@ -321,10 +320,10 @@ iframe {
   margin-bottom: 4.8rem;
 }
 
-/* Menu Card */
+/*** Menu Card ***/
 .menu-card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-columns: repeat(3, 1fr);
   gap: 2.4rem;
   padding: 1rem;
   justify-items: center;
