@@ -179,7 +179,7 @@ footer a {
 }
 
 .landing-image {
-  width: 309px;
+  width: 65%;
 }
 
 /*** why choose ***/
@@ -276,6 +276,7 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 

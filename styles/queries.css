@@ -1,0 +1,79 @@
+/* 1080px */
+@media (max-width: 67.5rem) {
+  html {
+    font-size: 58%;
+  }
+
+  /* Landing Page*/
+  .landing-image {
+    width: 60%;
+  }
+
+  /* Team Page */
+  .cheff img {
+    width: 50%;
+  }
+}
+
+/* 768px */
+@media (max-width: 48em) {
+  html {
+    font-size: 55%;
+  }
+
+  /* Landing Page */
+  .landing {
+    grid-template-columns: 1fr;
+  }
+  .center-box {
+    display: none;
+  }
+
+  .review-card {
+    margin: 2rem auto;
+    max-width: 42rem;
+    gap: 2rem;
+    padding: 3rem;
+  }
+
+  /* Team Page */
+  iframe {
+    width: 90%;
+  }
+
+  /* Menu Page */
+  .menu-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.4rem;
+    padding: 1rem;
+  }
+
+  .menu-card {
+    width: 22rem;
+  }
+
+  .menu-card img {
+    width: 18rem;
+  }
+}
+
+/* 480px */
+@media (max-width: 30em) {
+  html {
+    font-size: 50%;
+  }
+
+  /* Menu Page */
+  .menu-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem;
+  }
+
+  .menu-card {
+    width: 21rem;
+  }
+
+  .menu-card img {
+    width: 17rem;
+  }
+}
